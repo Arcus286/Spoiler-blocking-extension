@@ -1,0 +1,21 @@
+body {
+  width: 300px;
+  background-color: white;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#keyword-text {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #1c2e4a;
+  margin-bottom: 8px;
+}
+
+#add-btn {
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 16px;
+  background-color: #0a1931;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
