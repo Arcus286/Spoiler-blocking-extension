@@ -2,16 +2,17 @@
   "manifest_version": 3,
   "name": "Spoiler Shield",
   "version": "1.0",
-  "description": "Blocks video thumbnails based on user-defined keywords.",
-  "permissions": ["storage"],
+  "description": "Blocks YouTube thumbnails based on custom keywords to prevent spoilers.",
+  "permissions": ["storage", "tabs"],
   "host_permissions": ["*://*.youtube.com/*"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "Spoiler Shield"
   },
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["index.js"],
+      "js": ["content.js"],
       "run_at": "document_idle"
     }
   ]
