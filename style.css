@@ -11,17 +11,39 @@ body {
   margin-bottom: 8px;
 }
 
-#add-btn {
+#add-btn,
+#delete-btn {
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
   padding: 8px 16px;
-  background-color: #0a1931;
-  color: white;
+  /* background-color: #0a1931;
+  color: white; */
   font-size: 15px;
   font-weight: bold;
-  border: none;
+  border: 1px solid #0a1931;
 }
 
-#add-btn:hover{
+#add-btn {
+  background-color: #0a1931;
+  color: white;
+}
+
+#delete-btn {
+  color: #0a1931;
+  background-color: white;
+  border: 1px solid #0a1931;
+}
+
+#keyword-list{
+  list-style: none;
+  padding: 0px;
+  font-size: larger;
+}
+
+li{
+  margin: 5px;
+}
+
+#add-btn:hover {
   background-color: #030e20;
   cursor: pointer;
 }
