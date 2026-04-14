@@ -7,7 +7,8 @@
   "host_permissions": ["*://*.youtube.com/*"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Spoiler Shield"
+    "default_title": "Spoiler Shield",
+    "default_icon": "icons8-shield-100.png"
   },
   "content_scripts": [
     {
